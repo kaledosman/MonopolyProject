@@ -1,0 +1,6 @@
+1.Figure out the  game functions and rules
+2.Decide on what to include in our game and what to leave out
+4.Figure out how the user interface should look like.
+5.Make the Board image functional by seperating each box where the players are going to be landing in.
+6.Add dice appearance and fucntion
+7.
