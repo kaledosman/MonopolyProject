@@ -13,5 +13,6 @@ namespace Monopoly
     /// </summary>
     public partial class App : Application
     {
+        
     }
 }

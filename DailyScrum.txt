@@ -1,6 +1,18 @@
+- 08/09/2016
+
+
 1.Figure out the  game functions and rules
 2.Decide on what to include in our game and what to leave out
 4.Figure out how the user interface should look like.
 5.Make the Board image functional by seperating each box where the players are going to be landing in.
-6.Add dice appearance and fucntion
-7.
+
+
+
+- 12/09/2016
+
+
+1.Add dice appearance and fucntion
+2. Create Classes for Player and Property
+3. Create Methods NextTurn(), BuyorSell() 
+4. Create Database
+5. Create an Array for each box players will be landing on

@@ -56,6 +56,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="RunMono.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -98,6 +99,102 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="monopolyboard.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Go.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bl1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="b1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Taxe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="brown1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Chest.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Train.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bl2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Chance1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bl3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Prison.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Mauve.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Orange.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Orange1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Chest1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Train1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Mauve 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Service.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="FreeParking.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Red.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Red1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Red2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Yellow1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Yellow2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Service2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="GoToJail.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Green.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Green1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Chance.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Blue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Blue1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="LuxuaryTaxes.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

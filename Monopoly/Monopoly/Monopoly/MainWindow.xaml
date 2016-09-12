@@ -1,0 +1,77 @@
+﻿<Window x:Class="Monopoly.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Monopoly"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="750" Width="900">
+    <Grid x:Name="btLetsPlay">
+        <WrapPanel Margin="0,594,249,0" Name="ButtonPanel"  Orientation="Horizontal" >
+            <Image x:Name="Jail" Height="79" Source="Prison.jpg" Stretch="Fill" Width="80"/>
+            <Image x:Name="lightblue2" Height="79" Source="bl1.jpg" Stretch="Fill" Width="50"/>
+            <Image x:Name="lightblue1" Height="79" Source="bl2.jpg" Stretch="Fill" Width="50"/>
+            <Image x:Name="Chance" Height="79" Source="Chance1.jpg" Stretch="Fill" Width="52"/>
+            <Image x:Name="lightblue" Height="79" Source="bl3.jpg" Stretch="Fill" Width="50"/>
+            <Image x:Name="Train" Height="80" Source="Train.jpg" Stretch="Fill" Width="51"/>
+            <Image x:Name="Taxe" Height="79" Source="Taxe.jpg" Stretch="Fill" Width="49"/>
+            <Image x:Name="brown1" Height="79" Source="b1.jpg" Stretch="Fill" Width="50"/>
+            <Image x:Name="Chest" Height="80" Source="Chest.jpg" Stretch="Fill" Width="52"/>
+            <Image x:Name="brown" Height="79" Source="brown1.jpg" Stretch="Fill" Width="50"/>
+            <Image x:Name="Go" Height="75" Source="Go.jpg" Stretch="Fill" Width="79"/>
+
+        </WrapPanel>
+        <WrapPanel Margin="0,138,798,75" Name="leftPanel" Orientation="Vertical">
+            <Image x:Name="Orange_jpg" Height="49" Source="Orange.jpg" Stretch="Fill" Width="80"/>
+            <Image x:Name="Orange1_jpg" Height="49" Source="Orange1.jpg" Stretch="Fill" Width="80"/>
+            <Image x:Name="Chest1_jpg" Height="50" Source="Chest1.jpg" Stretch="Fill" Width="80"/>
+            <Image x:Name="Orange1_jpg1" Height="49" Source="Orange1.jpg" Stretch="Fill" Width="80"/>
+            <Image x:Name="Train1_jpg" Height="50" Source="Train1.jpg" Stretch="Fill" Width="80"/>
+            <Image x:Name="Mauve_2_jpg" Height="52" Source="Mauve 2.jpg" Stretch="Fill" Width="79"/>
+            <Image x:Name="Mauve_jpg" Height="52" Source="Mauve.jpg" Stretch="Fill" Width="79"/>
+            <Image x:Name="Service_jpg" Height="48" Source="Service.jpg" Stretch="Fill" Width="80"/>
+            <Image x:Name="Mauve_jpg1" Height="52" Source="Mauve.jpg" Stretch="Fill" Width="79"/>
+        </WrapPanel>
+
+        <WrapPanel Margin="0,56,249,581" Name="topPanel" Orientation="Horizontal">
+            <Image x:Name="FreeParking_jpg" Height="80" Source="FreeParking.jpg" Stretch="Fill" Width="79"/>
+            <Image x:Name="Red_jpg" Height="81" Source="Red.jpg" Stretch="None" Width="51"/>
+            <Image x:Name="Chance1_jpg1" Height="79" Source="Chance1.jpg" Stretch="Fill" Width="52"/>
+            <Image x:Name="Red1_jpg" Height="81" Source="Red1.jpg" Stretch="Fill" Width="51"/>
+            <Image x:Name="Red2_jpg" Height="81" Source="Red2.jpg" Stretch="Fill" Width="51"/>
+            <Image x:Name="Train_jpg1" Height="80" Source="Train.jpg" Stretch="Fill" Width="51"/>
+            <Image x:Name="Yellow1_jpg" Height="80" Source="Yellow1.jpg" Stretch="Fill" Width="49"/>
+            <Image x:Name="Yellow2_jpg" Height="80" Source="Yellow2.jpg" Stretch="Fill" Width="49"/>
+            <Image x:Name="Service2_jpg" Height="80" Source="Service2.jpg" Stretch="Fill" Width="50"/>
+            <Image x:Name="Yellow2_jpg1" Height="80" Source="Yellow2.jpg" Stretch="Fill" Width="49"/>
+            <Image x:Name="GoToJail_jpg" Height="79" Source="GoToJail.jpg" Stretch="Fill" Width="79"/>
+        </WrapPanel>
+
+        <WrapPanel Margin="527,133,277,75" Name="rightPanel" Orientation="Vertical">
+            <Image x:Name="Green_jpg" Height="50" Source="Green.jpg" Stretch="Fill" Width="79"/>
+            <Image x:Name="Green1_jpg" Height="50" Source="Green1.jpg" Stretch="Fill" Width="79"/>
+            <Image x:Name="Chest1_jpg1" Height="50" Source="Chest1.jpg" Stretch="Fill" Width="80"/>
+            <Image x:Name="Green_jpg1" Height="50" Source="Green.jpg" Stretch="Fill" Width="79"/>
+            <Image x:Name="Train1_jpg1" Height="50" Source="Train1.jpg" Stretch="Fill" Width="80"/>
+            <Image x:Name="Chance_jpg" Height="49" Source="Chance.jpg" Stretch="Fill" Width="78"/>
+            <Image x:Name="Blue_jpg" Height="51" Source="Blue.jpg" Stretch="Fill" Width="79"/>
+            <Image x:Name="LuxuaryTaxes_jpg" Height="49" Source="LuxuaryTaxes.jpg" Stretch="Fill" Width="79"/>
+            <Image x:Name="Blue1_jpg" Height="51" Source="Blue1.jpg" Stretch="Fill" Width="79"/>
+
+        </WrapPanel>
+        <Button x:Name="button" Content="Lets Plays" HorizontalAlignment="Left" Margin="238,170,0,0" VerticalAlignment="Top" Width="131" Click="button_Click"/>
+        <TextBlock x:Name="tbP1" HorizontalAlignment="Left" Margin="648,65,0,0" TextWrapping="Wrap" Text="Player One" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="tbName1" HorizontalAlignment="Left" Height="23" Margin="728,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="tbP1_Copy" HorizontalAlignment="Left" Margin="638,338,0,0" TextWrapping="Wrap" Text="Player Two" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="tbName2" HorizontalAlignment="Left" Height="23" Margin="718,331,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btRollDice" Content="Roll Dice" HorizontalAlignment="Left" Margin="130,200,0,0" VerticalAlignment="Top" Width="75" Click="btRollDice_Click"/>
+        <Button x:Name="btNext" Content="Button" HorizontalAlignment="Left" Margin="262,200,0,0" VerticalAlignment="Top" Width="75" Click="btNext_Click"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="648,100,0,0" TextWrapping="Wrap" Text="Cash Flow" VerticalAlignment="Top" Width="62"/>
+        <TextBlock x:Name="TbCash" HorizontalAlignment="Left" Margin="728,100,0,0" TextWrapping="Wrap" Text="Cash Flow" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="638,359,0,0" TextWrapping="Wrap" Text="Cash Flow" VerticalAlignment="Top" Width="62"/>
+        <TextBlock x:Name="TbCash2" HorizontalAlignment="Left" Margin="718,359,0,0" TextWrapping="Wrap" Text="Cash Flow" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+
+
+</Window>
